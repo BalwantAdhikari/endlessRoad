@@ -5,8 +5,8 @@ export default class Game extends Phaser.Scene
     preload()
     {
         this.load.image('car', 'assets/Audi.png')
-        this.load.image('bg', 'assets/straightRoad.png')
-        this.load.image('bg2', 'assets/straightRoad.png')
+        this.load.image('bg', 'assets/Straight_Road.png')
+        this.load.image('bg2', 'assets/Straight_Road.png')
         this.load.audio('carSpeedAudio', 'assets/car+speed+01.wav')
     }
 
